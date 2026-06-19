@@ -181,21 +181,25 @@ See `experiments/paper/PAPER.md` for usage examples from other experiments in th
 
 ## Citation
 
-If you find this code or concept useful in your research, please cite the corresponding papers:
+If you find the code or concepts useful in your research, please cite the corresponding papers:
 
 ```
-@article{bynum2026computational,
-  title={Computational Identifiability},
-  author={Bynum, Lucius EJ and Ranganath, Rajesh and Cho, Kyunghyun},
-  journal={arXiv preprint arXiv:2606.19361},
-  year={2026}
+@article{bynum2026computationalidentifiability,
+  title = {Computational Identifiability},
+  author = {Bynum, Lucius EJ and Ranganath, Rajesh and Cho, Kyunghyun},
+  year = {2026},
+  eprint = {2606.19361},
+  journal = {arXiv Preprint arXiv:2503.05985},
+  url = {https://arxiv.org/pdf/2606.19361},
 }
 
-@article{bynum2025black,
-  title={Black Box Causal Inference: Effect Estimation via Meta Prediction},
-  author={Bynum, Lucius EJ and Puli, Aahlad Manas and Herrero-Quevedo, Diego and Nguyen, Nhi and Fernandez-Granda, Carlos and Cho, Kyunghyun and Ranganath, Rajesh},
-  journal={arXiv preprint arXiv:2503.05985},
-  year={2025}
+@article{bynum2025blackboxcausalinference,
+  title = {Black Box Causal Inference: Effect Estimation via Meta Prediction},
+  author = {Bynum, Lucius EJ and Puli, Aahlad Manas and Herrero-Quevedo, Diego and Nguyen, Nhi and Fernandez-Granda, Carlos and Cho, Kyunghyun and Ranganath, Rajesh},
+  year = {2025},
+  eprint = {2503.05985},
+  journal = {arXiv Preprint arXiv:2503.05985},
+  url = {https://arxiv.org/pdf/2503.05985},
 }
 ```
 
