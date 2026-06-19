@@ -189,7 +189,7 @@ If you find the code or concepts useful in your research, please cite the corres
   author = {Bynum, Lucius EJ and Ranganath, Rajesh and Cho, Kyunghyun},
   year = {2026},
   eprint = {2606.19361},
-  journal = {arXiv Preprint arXiv:2503.05985},
+  journal = {arXiv Preprint arXiv:2606.19361},
   url = {https://arxiv.org/pdf/2606.19361},
 }
 
