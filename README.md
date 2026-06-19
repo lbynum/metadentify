@@ -1,10 +1,10 @@
 # Meta-/in-context/amortized causal inference for `computational identifiability`
 
-[![PyPI version](https://badge.fury.io/py/metadentify.svg)](https://badge.fury.io/py/metadentify)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.19361-b31b1b.svg)](https://arxiv.org/abs/2606.19361)
 [![PyTorch Lightning](https://img.shields.io/badge/pytorch-lightning-yellow.svg?logo=PyTorch%20Lightning)](https://lightning.ai/docs/pytorch/stable/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![CI](https://github.com/lbynum/metadentify/actions/workflows/ci.yml/badge.svg)](https://github.com/lbynum/metadentify/actions)
+[![PyPI version](https://badge.fury.io/py/metadentify.svg)](https://badge.fury.io/py/metadentify)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v1.json)](https://github.com/astral-sh/ruff)
 [![License](https://img.shields.io/badge/License-MIT-orange)](LICENSE)
 
