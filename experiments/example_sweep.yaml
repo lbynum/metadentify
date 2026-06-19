@@ -1,0 +1,67 @@
+program: run-experiment
+method: grid
+
+command:
+  - ${program}
+  - "--experiment_setup_path"                 
+  - "experiments/example_experiment.py"
+  - ${args}
+
+parameters:
+  # --- EXPERIMENT PARAMS ---
+  experiment_name:
+    values: ["iv", "confounder", "proxy", "t-only"]
+  query_name:
+    value: "PATE"
+  backbone_type:
+    value: "q-cnp"
+  hidden_confounder_weight:
+    value: 0.0
+  
+  # --- DATASET PARAMS ---
+  dataset_size:
+    values: [1000, 100, 10]
+  num_query_points:
+    value: 10
+  num_train_tasks:
+    value: 10000
+  num_val_tasks:
+    value: 1000
+  num_test_tasks:
+    value: 1000
+  tasks_per_file:
+    value: 100
+
+  # --- TRAINING PARAMS ---
+  lr:
+    value: 1e-3
+  weight_decay:
+    value: 0
+  batch_size:
+    value: 64
+  max_epochs:
+    value: 500
+  patience:
+    value: 100
+    
+  # --- ARCHITECTURE PARAMS ---
+  embed_dim:
+    value: 128
+  num_layers:
+    value: 2
+  num_heads:
+    value: 4
+  num_inducing_points:
+    value: 32
+  dropout:
+    value: 0.0
+  num_tau_samples:
+    value: 32
+  lambda_crossing_penalty:
+    value: 0
+  
+  # --- PARALLELIZATION PARAMS ---
+  num_pytorch_workers:
+    value: 1
+  num_datagen_workers:
+    value: -2
